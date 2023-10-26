@@ -3,3 +3,4 @@ struct student {
    char name[20]; 
    short score; 
 };
+
