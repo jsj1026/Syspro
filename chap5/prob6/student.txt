@@ -1,0 +1,8 @@
+$ dbquery stdb1
+Enter StudentID to search : 1001003
+StuID: 1001003 Name: 김태환 Score: 85
+Continue?(Y/N)Y
+Enter StudentID to search : 1001006
+StuID: 1001006 Name: 김현진 Score: 88
+Continue?(Y/N)N
+
