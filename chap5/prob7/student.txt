@@ -1,0 +1,5 @@
+$ dbupdate stdb1
+Enter StudentID to be modified: 1001009
+StuID: 1001009 Name: 장샛별 Score: 75
+Enter New Score: 85
+Continue?(Y/N)N
