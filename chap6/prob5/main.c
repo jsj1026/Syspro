@@ -68,11 +68,8 @@ char type(mode_t mode)
          return('p');
      if (S_ISSOCK(mode))
         return('s');
- }
-
-
-
-char* perm(mode_t mode)
+			
+  char* perm(mode_t mode)
  {
      static char perms[10];
      strcpy(perms, "---------");
