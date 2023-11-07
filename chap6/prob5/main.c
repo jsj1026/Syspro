@@ -1,5 +1,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <dirent.h>
 #include <time.h>
 #include <grp.h>
 #include <pwd.h>
@@ -68,6 +69,7 @@ char type(mode_t mode)
          return('p');
      if (S_ISSOCK(mode))
         return('s');
+ }
 			
   char* perm(mode_t mode)
  {
