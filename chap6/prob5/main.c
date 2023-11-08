@@ -53,6 +53,49 @@
      printf("%s\n", file);
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 char type(mode_t mode)
  {
      if (S_ISREG(mode))
